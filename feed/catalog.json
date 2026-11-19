@@ -1,0 +1,190 @@
+{
+  "schema": 1,
+  "published": "2026-11-19T14:04:06.126850+00:00",
+  "manager": {
+    "id": "vr-tools-manager",
+    "version": "2.1.6",
+    "package": "packages/vr-tools-manager/2.1.6.zip",
+    "sha256": "bf5dfdf521e27932cacad0de3a7eb9e281208b4a4720d0b7ff595c72db5b194a",
+    "files": {
+      "VR_tools_Panel.ms": "c33cb6c48387305db354a1f4b07f309534e0381639de84c46bb094e19a9dbf65",
+      "VR_tools_install.ms": "7ed98726de5274eb8d51958bbef50a169ced2eb3a2f7c4b12c8620c15fabfc95",
+      "VR_tools_bootstrap.py": "7c1573eab31d48abaf1364211dc80070e5b3a62114b8f72b472fe1061b5805e1",
+      "vrtools_manager/legacy.ms": "b27c39038c55572d4e83f82274ef365598510cc10e14b894f42890eb1ede3c4e",
+      "vrtools_manager/__init__.py": "fc69e5d0471079dfb2d3f2abe792a6181055ba871a2f47f7ca66cba252083f2f",
+      "vrtools_manager/core.py": "a95e863be86d87ebf0efb4cf5a20b6b8073ca4e8fc531496ac51cae32fce9294",
+      "vrtools_manager/menus.py": "78c8a73a9573ad0e08863d147d1f14756b252a57d71fb4f886d81359c7604ba9",
+      "vrtools_manager/publish.py": "55159443bbb430df8bc7ed86def3e86d5c49c3e49b2080dad58c47df09741136",
+      "vrtools_manager/registration.py": "cd10dc1aadc19608899cb88785febdc7e9c421eeb3611c9a3e1a6efdedc348f3",
+      "vrtools_manager/serve.py": "8804be39b2920052a5b69d3a328fe4972b513745b24137b8540683aa806b622b",
+      "vrtools_manager/ui.py": "978d98860ee2cef560411ef712ba0cc186dc87e856c1db589bb2f2216d57fed5"
+    },
+    "name": "VR Tools Manager",
+    "notes": "Central catalog, verified installs, rollback and online bootstrap.",
+    "min_max": 2024
+  },
+  "tools": [
+    {
+      "id": "network-sanity-check-py",
+      "version": "1.0.5",
+      "package": "packages/network-sanity-check-py/1.0.5.zip",
+      "sha256": "cfcb94c49cc24ddd0465d0524b243497e9512543e5d1a3fa913b40936c8a3c8a",
+      "files": {
+        "NetworkSanityCheck_py.ms": "9830b62d79f64fdf821e79eeb78c1ab0187f0af15fb661147796c5263ec03f78",
+        "nsc/__init__.py": "d5228ab1b8de095d7381c6457e02a6f65d1cbdce7c46c487bf8b26a5d07ff070",
+        "nsc/__main__.py": "a6c6ba94125fafbbc570f98d47c62e65f3902e6fcb949fb0c4300fda7f7bbd62",
+        "nsc/config.py": "7fc1611a83a6f195d5235e2c79a49e1d0b13590898dec3e92459cf5cd5cacb2a",
+        "nsc/helpers.ms": "85fa01c979fe2b61885d692d8b63ece816856bdec104a87e6dac1c6608431e48",
+        "nsc/maxops.py": "780c44e8bfb7269b3ecca8e19498d7fab4e823e10cf8e8ddd32cd8c73719735d",
+        "nsc/ops.py": "7c6b2dc30472fafecaff829e4c1f262a3893742a7e77879c103c12c821f5f91e",
+        "nsc/qt.py": "5ab586aefb02ed7c1e68ed53cafc26280a7c7253d17bffd500cba205de9affc3",
+        "nsc/scan.py": "268701efd44b4dfc99acb368a8fe979bca54ec72c456cf97ad642b430be21639",
+        "nsc/ui.py": "b119b6b4c490125bafdf6f2419d69bc4debe704eb6f2d6170dc006660c782242"
+      },
+      "name": "Network Sanity Check Py",
+      "main": "NetworkSanityCheck_py.ms",
+      "type": "ms",
+      "description": "Python/Qt preflight for Backburner render farm submission (multi-file package)",
+      "notes": "Fast Asset Tracker Quick audit by default; Full scan for map usage/conversion. Fixed progress area prevents layout jumping. Cancellation and output exclusion retained.",
+      "min_max": 2024
+    },
+    {
+      "id": "remove-all-render-effects",
+      "version": "2.0.0",
+      "package": "packages/remove-all-render-effects/2.0.0.zip",
+      "sha256": "5731b0685430f5eda80bc3f15f6a124681764f9dd701933e45e06c950f181b05",
+      "files": {
+        "VRTools_RemoveAllRenderEffects.ms": "1d9ad43074f1880774dc939be7d43331452b0b2b5648e7f6994811165e7e2af4",
+        "vr_effects/ui.py": "2eb9328caebcdd004765cdeddda49e993ef210d40d8e90b560fe74473d755b2f",
+        "vr_effects/tool.py": "8b5408a33c9ee47e9d6ed9b7060db4cebd02b46929c95f3842f16bf5d9c39b55"
+      },
+      "name": "Remove All Render Effects",
+      "main": "VRTools_RemoveAllRenderEffects.ms",
+      "type": "ms",
+      "description": "Removes all entries from Environment and Effects - Effects tab",
+      "notes": "Python implementation with a consistent VR Tools interface. Close the tool before updating and reopen it from the panel.",
+      "min_max": 2024
+    },
+    {
+      "id": "vr-lightmix-setup",
+      "version": "2.0.1",
+      "package": "packages/vr-lightmix-setup/2.0.1.zip",
+      "sha256": "82684527cc350472828a7f390132bc0630ce401f16bdec5daa0e5ce7a8e7a918",
+      "files": {
+        "VR_LightmixSetup.ms": "34dfbcf7bdfff06890aab6b7d38b322a7ff42d8c325c60c4f782fe81d81a7ab3",
+        "vr_lightmix/ui.py": "2eb9328caebcdd004765cdeddda49e993ef210d40d8e90b560fe74473d755b2f",
+        "vr_lightmix/tool.py": "b5d86fe3292a24fade281821559a4c5ad83494fb336dd44b1a77003778147880",
+        "vr_lightmix/elements.py": "6416fd5d47488870017a5c0880b181953d3661d124d0b849a20dabd663d724f7"
+      },
+      "name": "VR Lightmix Setup",
+      "main": "VR_LightmixSetup.ms",
+      "type": "ms",
+      "description": "Adds LightMix and LightSelect render elements (Corona or V-Ray)",
+      "notes": "Add the shading normals pass for Corona and V-Ray.",
+      "min_max": 2024
+    },
+    {
+      "id": "vr-project-creator",
+      "version": "2.0.1",
+      "package": "packages/vr-project-creator/2.0.1.zip",
+      "sha256": "84a1a97ca92b9394f1b3652bc44270ee22215e29f7d43fb65d6a9515fd0aacc9",
+      "files": {
+        "VR_Project_Creator_Menu.ms": "c36213d77389a9025903f342896eb5d7aeff2c0ed7a26fc4ea52ee561f774af6",
+        "vr_project/ui.py": "2eb9328caebcdd004765cdeddda49e993ef210d40d8e90b560fe74473d755b2f",
+        "vr_project/tool.py": "4c96f6670e97d7ee0efef6c6803fe445695876f4439e60c2e2a9990064c33a4b",
+        "vr_project/elements.py": "6416fd5d47488870017a5c0880b181953d3661d124d0b849a20dabd663d724f7"
+      },
+      "name": "VR Project Creator",
+      "main": "VR_Project_Creator_Menu.ms",
+      "type": "ms",
+      "description": "Creates VR project folder structure with render setup and 360 camera",
+      "notes": "Prefer ASR Z: and create the Mumbai projects folder on fallback. Add shading normals for Corona and V-Ray.",
+      "min_max": 2024
+    },
+    {
+      "id": "batch-render-setup",
+      "version": "2.0.0",
+      "package": "packages/batch-render-setup/2.0.0.zip",
+      "sha256": "1a70b10a41206d36a6a10100dfa3b77baa1bba44bbda62675b8afd4aee4e12da",
+      "files": {
+        "BatchRenderSetup.ms": "17623a0e7f4fd0bc2748675b7bcb361afca0897da6e62eadc3b0b02c86df2905",
+        "vr_batch/ui.py": "2eb9328caebcdd004765cdeddda49e993ef210d40d8e90b560fe74473d755b2f",
+        "vr_batch/tool.py": "5bc5347a8610726935d10b764a120e4cd7c3c6b227e73711809b53b02a8d1da4"
+      },
+      "name": "Batch Render Setup",
+      "main": "BatchRenderSetup.ms",
+      "type": "ms",
+      "description": "Batch render setup utility with preview and final passes",
+      "notes": "Python implementation with a consistent VR Tools interface. Close the tool before updating and reopen it from the panel.",
+      "min_max": 2024
+    },
+    {
+      "id": "camera-ir-lock",
+      "version": "2.0.0",
+      "package": "packages/camera-ir-lock/2.0.0.zip",
+      "sha256": "09ed834dfe1faf1a3fe4219d501e397ccf4418aa53eb49d02ec9071d554568d6",
+      "files": {
+        "CameraIRLock.ms": "bdcc88abb560303b6d104a45466e8f3ef4d7273c57dd9b93c7840898d84175ac",
+        "vr_camera/ui.py": "2eb9328caebcdd004765cdeddda49e993ef210d40d8e90b560fe74473d755b2f",
+        "vr_camera/tool.py": "028b619f15bf6c0db44b30eb35dcf8d346fdbbb7cc2b36a3574cf27249f664e1"
+      },
+      "name": "Camera IR Lock",
+      "main": "CameraIRLock.ms",
+      "type": "ms",
+      "description": "Lock camera IR on floating viewport panels for VR renders",
+      "notes": "Python implementation with a consistent VR Tools interface. Close the tool before updating and reopen it from the panel.",
+      "min_max": 2024
+    },
+    {
+      "id": "product-render-views",
+      "version": "2.0.0",
+      "package": "packages/product-render-views/2.0.0.zip",
+      "sha256": "e8cdcf0e13341c0c12daa28ff0c6b059002044e037c65a48e7afe04c3c5858fd",
+      "files": {
+        "VR_RenderViews.ms": "b466bc261acdeb58dcb2ae14759384ca53b2266dbcea5c8b5692344284ec9da7",
+        "vr_product/ui.py": "2eb9328caebcdd004765cdeddda49e993ef210d40d8e90b560fe74473d755b2f",
+        "vr_product/tool.py": "f3d915223601da671c4e57f505fc4b9bbe83bf586d057527e9811c3c272b2aa3"
+      },
+      "name": "Product Render Views",
+      "main": "VR_RenderViews.ms",
+      "type": "ms",
+      "description": "Renders every cam_<view> camera using matching scene states",
+      "notes": "Python implementation with a consistent VR Tools interface. Close the tool before updating and reopen it from the panel.",
+      "min_max": 2024
+    },
+    {
+      "id": "copy-paste-objects",
+      "version": "2.0.0",
+      "package": "packages/copy-paste-objects/2.0.0.zip",
+      "sha256": "8bf20efe825c8de8fe982512af925a15622de2cf8c86504c26aa3672e842275a",
+      "files": {
+        "CG_CopyPasteObjects.ms": "1aeda3a0e257a79e6e59b1481e6301e9230a328274ea234522203729ab66b640",
+        "vr_clipboard/ui.py": "2eb9328caebcdd004765cdeddda49e993ef210d40d8e90b560fe74473d755b2f",
+        "vr_clipboard/tool.py": "a204186f47829ec5dd93f0381b76d8d10a5124fdab24b3ba4a342033ef88c86d"
+      },
+      "name": "Copy Paste Objects",
+      "main": "CG_CopyPasteObjects.ms",
+      "type": "ms",
+      "description": "Copy and paste objects between 3ds Max instances via temp file",
+      "notes": "Python implementation with a consistent VR Tools interface. Close the tool before updating and reopen it from the panel.",
+      "min_max": 2024
+    },
+    {
+      "id": "render-output-version",
+      "version": "2.0.0",
+      "package": "packages/render-output-version/2.0.0.zip",
+      "sha256": "d17705f20d614b3e193d6906305381268eea0e3216cbdd639b350e560e23f07d",
+      "files": {
+        "Render_Output_Version.ms": "23f481f0d35fc130efeff982f6beab11726bc95436e66a9f1255bfb9d8973363",
+        "vr_output/ui.py": "2eb9328caebcdd004765cdeddda49e993ef210d40d8e90b560fe74473d755b2f",
+        "vr_output/tool.py": "fd0db2052b7f14a47c234d7370fc353ba6ddc87654bf5fb943651a1175dbf4e7"
+      },
+      "name": "Render Output Version",
+      "main": "Render_Output_Version.ms",
+      "type": "ms",
+      "description": "Create a render version folder and assign explicit paths to every render element",
+      "notes": "Python implementation with a consistent VR Tools interface. Close the tool before updating and reopen it from the panel.",
+      "min_max": 2024
+    }
+  ]
+}
