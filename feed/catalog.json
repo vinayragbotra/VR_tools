@@ -26,12 +26,12 @@
   "tools": [
     {
       "id": "network-sanity-check-py",
-      "version": "1.1.1",
-      "package": "packages/network-sanity-check-py/1.1.1.zip",
-      "sha256": "faf10f5d87f38ff84c541c7fc112f176120816491e114c1c194f70549e6c1869",
+      "version": "1.1.2",
+      "package": "packages/network-sanity-check-py/1.1.2.zip",
+      "sha256": "7ed5a0f3f5295c78d000d80dc86c8e45e6b89391bf232fcd9a3e29a2974f52ab",
       "files": {
         "NetworkSanityCheck_py.ms": "9830b62d79f64fdf821e79eeb78c1ab0187f0af15fb661147796c5263ec03f78",
-        "nsc/__init__.py": "d5228ab1b8de095d7381c6457e02a6f65d1cbdce7c46c487bf8b26a5d07ff070",
+        "nsc/__init__.py": "012cbaddd947e148cb1bb0d1986c36c478b4f652d2b9e6677ef58fb35e9f4d53",
         "nsc/__main__.py": "a6c6ba94125fafbbc570f98d47c62e65f3902e6fcb949fb0c4300fda7f7bbd62",
         "nsc/config.py": "7fc1611a83a6f195d5235e2c79a49e1d0b13590898dec3e92459cf5cd5cacb2a",
         "nsc/helpers.ms": "85fa01c979fe2b61885d692d8b63ece816856bdec104a87e6dac1c6608431e48",
@@ -39,14 +39,14 @@
         "nsc/ops.py": "7c6b2dc30472fafecaff829e4c1f262a3893742a7e77879c103c12c821f5f91e",
         "nsc/qt.py": "2017cd1a9d39115d81c5758e942e15eccd57fde3501e3e8a039fe412f71dac48",
         "nsc/scan.py": "268701efd44b4dfc99acb368a8fe979bca54ec72c456cf97ad642b430be21639",
-        "nsc/ui.py": "155e4232a275b95c6d66ef5229a41ed1644a608a51c2307fd1bdb8d81c8aeff1",
+        "nsc/ui.py": "3111ba80ec422b693a338b88ed2da18d46deae6c5086184d4de0ce514f978372",
         "nsc/collection.py": "c0a4f39563d7c9ce1c427c640a51a112fc7165179777815ebeb5c3a43ef6cf34"
       },
       "name": "Network Sanity Check Py",
       "main": "NetworkSanityCheck_py.ms",
       "type": "ms",
       "description": "Python/Qt preflight for Backburner render farm submission (multi-file package)",
-      "notes": "Collect all scene maps by default, resolve missing sources, verify absolute links, and show cancellable progress.",
+      "notes": "Collect all scene maps by default, resolve missing sources, verify absolute links, and show cancellable progress. The footer now shows the package version.",
       "min_max": 2024
     },
     {
