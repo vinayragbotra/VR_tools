@@ -1,23 +1,23 @@
 {
   "schema": 1,
-  "published": "2026-11-19T14:04:06.126850+00:00",
+  "published": "2026-11-20T07:09:05.473398+00:00",
   "manager": {
     "id": "vr-tools-manager",
-    "version": "2.1.6",
-    "package": "packages/vr-tools-manager/2.1.6.zip",
-    "sha256": "bf5dfdf521e27932cacad0de3a7eb9e281208b4a4720d0b7ff595c72db5b194a",
+    "version": "2.1.7",
+    "package": "packages/vr-tools-manager/2.1.7.zip",
+    "sha256": "9233c39252b5085f6dbe8d7f3216011a4c2beed3cbce0e897de8f23b5b78d5cc",
     "files": {
       "VR_tools_Panel.ms": "c33cb6c48387305db354a1f4b07f309534e0381639de84c46bb094e19a9dbf65",
       "VR_tools_install.ms": "7ed98726de5274eb8d51958bbef50a169ced2eb3a2f7c4b12c8620c15fabfc95",
       "VR_tools_bootstrap.py": "7c1573eab31d48abaf1364211dc80070e5b3a62114b8f72b472fe1061b5805e1",
       "vrtools_manager/legacy.ms": "b27c39038c55572d4e83f82274ef365598510cc10e14b894f42890eb1ede3c4e",
-      "vrtools_manager/__init__.py": "fc69e5d0471079dfb2d3f2abe792a6181055ba871a2f47f7ca66cba252083f2f",
+      "vrtools_manager/__init__.py": "b39df54563c5c2d5f37d0871db4f8fad9aad5f6fb6e767d0ec398ac0e4d6915d",
       "vrtools_manager/core.py": "a95e863be86d87ebf0efb4cf5a20b6b8073ca4e8fc531496ac51cae32fce9294",
       "vrtools_manager/menus.py": "78c8a73a9573ad0e08863d147d1f14756b252a57d71fb4f886d81359c7604ba9",
       "vrtools_manager/publish.py": "55159443bbb430df8bc7ed86def3e86d5c49c3e49b2080dad58c47df09741136",
-      "vrtools_manager/registration.py": "cd10dc1aadc19608899cb88785febdc7e9c421eeb3611c9a3e1a6efdedc348f3",
+      "vrtools_manager/registration.py": "71bd6a50da8953829b8c0a102100efd4f6cd0a7e74eb482c1c58ac267d78f792",
       "vrtools_manager/serve.py": "8804be39b2920052a5b69d3a328fe4972b513745b24137b8540683aa806b622b",
-      "vrtools_manager/ui.py": "978d98860ee2cef560411ef712ba0cc186dc87e856c1db589bb2f2216d57fed5"
+      "vrtools_manager/ui.py": "ad24573c0c5382b0b24b907b09770a38613f307877213138ca985b187098be7d"
     },
     "name": "VR Tools Manager",
     "notes": "Central catalog, verified installs, rollback and online bootstrap.",
