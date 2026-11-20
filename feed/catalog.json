@@ -26,9 +26,9 @@
   "tools": [
     {
       "id": "network-sanity-check-py",
-      "version": "1.0.5",
-      "package": "packages/network-sanity-check-py/1.0.5.zip",
-      "sha256": "cfcb94c49cc24ddd0465d0524b243497e9512543e5d1a3fa913b40936c8a3c8a",
+      "version": "1.1.1",
+      "package": "packages/network-sanity-check-py/1.1.1.zip",
+      "sha256": "faf10f5d87f38ff84c541c7fc112f176120816491e114c1c194f70549e6c1869",
       "files": {
         "NetworkSanityCheck_py.ms": "9830b62d79f64fdf821e79eeb78c1ab0187f0af15fb661147796c5263ec03f78",
         "nsc/__init__.py": "d5228ab1b8de095d7381c6457e02a6f65d1cbdce7c46c487bf8b26a5d07ff070",
@@ -37,15 +37,16 @@
         "nsc/helpers.ms": "85fa01c979fe2b61885d692d8b63ece816856bdec104a87e6dac1c6608431e48",
         "nsc/maxops.py": "780c44e8bfb7269b3ecca8e19498d7fab4e823e10cf8e8ddd32cd8c73719735d",
         "nsc/ops.py": "7c6b2dc30472fafecaff829e4c1f262a3893742a7e77879c103c12c821f5f91e",
-        "nsc/qt.py": "5ab586aefb02ed7c1e68ed53cafc26280a7c7253d17bffd500cba205de9affc3",
+        "nsc/qt.py": "2017cd1a9d39115d81c5758e942e15eccd57fde3501e3e8a039fe412f71dac48",
         "nsc/scan.py": "268701efd44b4dfc99acb368a8fe979bca54ec72c456cf97ad642b430be21639",
-        "nsc/ui.py": "b119b6b4c490125bafdf6f2419d69bc4debe704eb6f2d6170dc006660c782242"
+        "nsc/ui.py": "155e4232a275b95c6d66ef5229a41ed1644a608a51c2307fd1bdb8d81c8aeff1",
+        "nsc/collection.py": "c0a4f39563d7c9ce1c427c640a51a112fc7165179777815ebeb5c3a43ef6cf34"
       },
       "name": "Network Sanity Check Py",
       "main": "NetworkSanityCheck_py.ms",
       "type": "ms",
       "description": "Python/Qt preflight for Backburner render farm submission (multi-file package)",
-      "notes": "Fast Asset Tracker Quick audit by default; Full scan for map usage/conversion. Fixed progress area prevents layout jumping. Cancellation and output exclusion retained.",
+      "notes": "Collect all scene maps by default, resolve missing sources, verify absolute links, and show cancellable progress.",
       "min_max": 2024
     },
     {
