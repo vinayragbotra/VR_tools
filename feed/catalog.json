@@ -155,19 +155,19 @@
     },
     {
       "id": "copy-paste-objects",
-      "version": "2.0.0",
-      "package": "packages/copy-paste-objects/2.0.0.zip",
-      "sha256": "8bf20efe825c8de8fe982512af925a15622de2cf8c86504c26aa3672e842275a",
+      "version": "2.0.1",
+      "package": "packages/copy-paste-objects/2.0.1.zip",
+      "sha256": "90b31c311d8bf8e5e8179db732455959f6898ed25e46e301a8f763197dd288fc",
       "files": {
         "CG_CopyPasteObjects.ms": "1aeda3a0e257a79e6e59b1481e6301e9230a328274ea234522203729ab66b640",
         "vr_clipboard/ui.py": "2eb9328caebcdd004765cdeddda49e993ef210d40d8e90b560fe74473d755b2f",
-        "vr_clipboard/tool.py": "a204186f47829ec5dd93f0381b76d8d10a5124fdab24b3ba4a342033ef88c86d"
+        "vr_clipboard/tool.py": "1527febc038b32c780c9a6c901983686a4ef5f109e18752e3b99f9b953821ab6"
       },
       "name": "Copy Paste Objects",
       "main": "CG_CopyPasteObjects.ms",
       "type": "ms",
-      "description": "Copy and paste objects between 3ds Max instances via temp file",
-      "notes": "Python implementation with a consistent VR Tools interface. Close the tool before updating and reopen it from the panel.",
+      "description": "Copies selected objects and their material textures between 3ds Max scenes",
+      "notes": "Copies textures from selected objects into the saved destination scene maps folder. Unsaved scenes use absolute source paths.",
       "min_max": 2024
     },
     {
