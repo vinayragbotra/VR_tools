@@ -26,12 +26,12 @@
   "tools": [
     {
       "id": "network-sanity-check-py",
-      "version": "1.1.3",
-      "package": "packages/network-sanity-check-py/1.1.3.zip",
-      "sha256": "26e5c653f2c00e9adfa950961f222a76ad54ac2abfb87f972c589ab8d6321b9f",
+      "version": "1.1.4",
+      "package": "packages/network-sanity-check-py/1.1.4.zip",
+      "sha256": "95ecd584bc9bd45930bb9c6e6ac96eb0469c55353f147f4a186bd63fda8f56eb",
       "files": {
         "NetworkSanityCheck_py.ms": "9830b62d79f64fdf821e79eeb78c1ab0187f0af15fb661147796c5263ec03f78",
-        "nsc/__init__.py": "085041303d83cc5f4668f24962815c8913540cc970331e078e055592b4bdc415",
+        "nsc/__init__.py": "f7e047e9ec05e14487f93da8cb3a06e74c6bb0e215e605c6efd0ed7eafdb4f42",
         "nsc/__main__.py": "a6c6ba94125fafbbc570f98d47c62e65f3902e6fcb949fb0c4300fda7f7bbd62",
         "nsc/config.py": "7fc1611a83a6f195d5235e2c79a49e1d0b13590898dec3e92459cf5cd5cacb2a",
         "nsc/helpers.ms": "85fa01c979fe2b61885d692d8b63ece816856bdec104a87e6dac1c6608431e48",
@@ -39,14 +39,14 @@
         "nsc/ops.py": "7c6b2dc30472fafecaff829e4c1f262a3893742a7e77879c103c12c821f5f91e",
         "nsc/qt.py": "2017cd1a9d39115d81c5758e942e15eccd57fde3501e3e8a039fe412f71dac48",
         "nsc/scan.py": "268701efd44b4dfc99acb368a8fe979bca54ec72c456cf97ad642b430be21639",
-        "nsc/ui.py": "75fb38b177f0661cfa74068be2fa30e1e5c5b5f2033a3f90344f0728f768b86e",
+        "nsc/ui.py": "868a9add4cf27de2561d27a846107b36b03c1f83633639a33933b4d89e760e81",
         "nsc/collection.py": "c0a4f39563d7c9ce1c427c640a51a112fc7165179777815ebeb5c3a43ef6cf34"
       },
       "name": "Network Sanity Check Py",
       "main": "NetworkSanityCheck_py.ms",
       "type": "ms",
       "description": "Python/Qt preflight for Backburner render farm submission (multi-file package)",
-      "notes": "Collect all scene maps by default, resolve missing sources, verify absolute links, and show cancellable progress. The footer is stamped from the package version.",
+      "notes": "Collect all scene maps by default, resolve missing sources, verify absolute links, and show cancellable progress. The footer is stamped from the package version. Fixed a startup syntax error on Max Python 3.10 and 3.11.",
       "min_max": 2024
     },
     {
