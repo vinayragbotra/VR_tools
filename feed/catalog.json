@@ -138,19 +138,19 @@
     },
     {
       "id": "product-render-views",
-      "version": "2.0.0",
-      "package": "packages/product-render-views/2.0.0.zip",
-      "sha256": "e8cdcf0e13341c0c12daa28ff0c6b059002044e037c65a48e7afe04c3c5858fd",
+      "version": "2.0.1",
+      "package": "packages/product-render-views/2.0.1.zip",
+      "sha256": "d516505b83d08aa60fe8939048d72a63b55cb8db5620745cc90e4b07167e4a71",
       "files": {
         "VR_RenderViews.ms": "b466bc261acdeb58dcb2ae14759384ca53b2266dbcea5c8b5692344284ec9da7",
         "vr_product/ui.py": "2eb9328caebcdd004765cdeddda49e993ef210d40d8e90b560fe74473d755b2f",
-        "vr_product/tool.py": "f3d915223601da671c4e57f505fc4b9bbe83bf586d057527e9811c3c272b2aa3"
+        "vr_product/tool.py": "b878eafd7398c6f587714973582cfb008bafd832c35d2a7fec6335e3b2c7ffb5"
       },
       "name": "Product Render Views",
       "main": "VR_RenderViews.ms",
       "type": "ms",
-      "description": "Renders every cam_<view> camera using matching scene states",
-      "notes": "Python implementation with a consistent VR Tools interface. Close the tool before updating and reopen it from the panel.",
+      "description": "Renders selected cam_<view> cameras using matching scene states",
+      "notes": "Camera checklist defaults to all eligible cameras. Both rendering actions use only checked cameras.",
       "min_max": 2024
     },
     {
