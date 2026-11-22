@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "published": "2026-11-20T11:14:29.689275+00:00",
+  "published": "2026-11-22T14:16:53.169432+00:00",
   "manager": {
     "id": "vr-tools-manager",
     "version": "2.1.9",
@@ -26,27 +26,27 @@
   "tools": [
     {
       "id": "network-sanity-check-py",
-      "version": "1.1.5",
-      "package": "packages/network-sanity-check-py/1.1.5.zip",
-      "sha256": "bfd0483f3579d02c0bfc35b9eb07ec98ecff17f0e1f0d500cc8af96826ea361c",
+      "version": "1.1.6",
+      "package": "packages/network-sanity-check-py/1.1.6.zip",
+      "sha256": "b9cc017cb9ea9e80592ed2af6db1892df95d9dc449182a3c3bec5d65505bc4d9",
       "files": {
         "NetworkSanityCheck_py.ms": "aaefdee5467f2d16021a9e32d48d3f4fe4a8663154271d13c9d10ac106757947",
-        "nsc/__init__.py": "2621da1610f8e0e8410af39786257772b60c953ad3dd498ed5af0a4acd693638",
+        "nsc/__init__.py": "d1f98d229bb91d859492d5b4e25b10c3784fbb1b9858e7353c737bc880b46d29",
         "nsc/__main__.py": "9f4a3da8a0acc33ed467570fff24ad1909ac2352bece96690e81f5d278b94372",
         "nsc/config.py": "7fc1611a83a6f195d5235e2c79a49e1d0b13590898dec3e92459cf5cd5cacb2a",
-        "nsc/helpers.ms": "85fa01c979fe2b61885d692d8b63ece816856bdec104a87e6dac1c6608431e48",
-        "nsc/maxops.py": "c629a278b469313f2b6aa9038097e913a626c76e6e709669ccfb10766448ca8c",
-        "nsc/ops.py": "7c6b2dc30472fafecaff829e4c1f262a3893742a7e77879c103c12c821f5f91e",
+        "nsc/helpers.ms": "c15fd583cb531bcbe72f16eabb827e90633aacf1f406b08b0e00aa421e5523c5",
+        "nsc/maxops.py": "77c6b94e5b933b419cd30e8cad835a7c56be0520d3f430f6d32d979c8876c11f",
+        "nsc/ops.py": "2b045413916ab7d80b2085f529b6c8c6b3d7a890d80abd1b9059b0a1e5a4ab4a",
         "nsc/qt.py": "0b258740cabaaaff7f817cd822caa33a3f94c75b401fd823eb62890741d12c4f",
-        "nsc/scan.py": "4af2f38b2353fd48285c0b55a005241ffcb5628e6514e046504b56d55e68c6a4",
-        "nsc/ui.py": "20614d02f8cde26518c8f443c2734f7dabc215a027880a46e3de76c5de9e9fa8",
-        "nsc/collection.py": "c0a4f39563d7c9ce1c427c640a51a112fc7165179777815ebeb5c3a43ef6cf34"
+        "nsc/scan.py": "68ab4dbb15730b604b0ea5fb8a53e17bd9a5a319a2a4dfff03f34560785f5bd5",
+        "nsc/ui.py": "b1945c8b74fd7d0b8408fc529f5e9ef739c07bc616dd5ea09f24b2b3388ac124",
+        "nsc/collection.py": "2977c7ada5959004ed9345a1e6a0c5c655b0596dfec87669accfb21b0f14c9f9"
       },
+      "notes": "Destination-first collection, filtered processing, checked-folder search, selected texture conversion, texture inspection and a simplified Audit tab.",
       "name": "VR Asset Tracker",
       "main": "NetworkSanityCheck_py.ms",
       "type": "ms",
       "description": "Find, verify, collect, and relink scene assets in 3ds Max",
-      "notes": "Uses Max-resolved paths and a single scene-subfolder search to identify found textures. Includes verified collection and cancellable progress.",
       "min_max": 2024
     },
     {
