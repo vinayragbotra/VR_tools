@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "published": "2026-11-23T12:12:10.531868+00:00",
+  "published": "2026-11-23T12:20:13.234458+00:00",
   "manager": {
     "id": "vr-tools-manager",
     "version": "2.1.9",
@@ -104,19 +104,19 @@
     },
     {
       "id": "batch-render-setup",
-      "version": "2.0.0",
-      "package": "packages/batch-render-setup/2.0.0.zip",
-      "sha256": "1a70b10a41206d36a6a10100dfa3b77baa1bba44bbda62675b8afd4aee4e12da",
+      "version": "2.0.1",
+      "package": "packages/batch-render-setup/2.0.1.zip",
+      "sha256": "d495d6f4dce43d14a3d181bff9f3345d979d7ca12e850b08b00c932630cfdaa4",
       "files": {
         "BatchRenderSetup.ms": "17623a0e7f4fd0bc2748675b7bcb361afca0897da6e62eadc3b0b02c86df2905",
         "vr_batch/ui.py": "2eb9328caebcdd004765cdeddda49e993ef210d40d8e90b560fe74473d755b2f",
-        "vr_batch/tool.py": "5bc5347a8610726935d10b764a120e4cd7c3c6b227e73711809b53b02a8d1da4"
+        "vr_batch/tool.py": "c65653c756550533e2215c5733a06a61cb0e224f27c7ef4de0fdd540856daa9e"
       },
+      "notes": "The camera list grows when the window is resized. Select all, Select none, and Refresh stay directly below it.",
       "name": "Batch Render Setup",
       "main": "BatchRenderSetup.ms",
       "type": "ms",
       "description": "Batch render setup utility with preview and final passes",
-      "notes": "Python implementation with a consistent VR Tools interface. Close the tool before updating and reopen it from the panel.",
       "min_max": 2024
     },
     {
