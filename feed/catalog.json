@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "published": "2026-11-22T14:16:53.169432+00:00",
+  "published": "2026-11-23T11:04:30.205535+00:00",
   "manager": {
     "id": "vr-tools-manager",
     "version": "2.1.9",
@@ -172,19 +172,19 @@
     },
     {
       "id": "render-output-version",
-      "version": "2.0.0",
-      "package": "packages/render-output-version/2.0.0.zip",
-      "sha256": "d17705f20d614b3e193d6906305381268eea0e3216cbdd639b350e560e23f07d",
+      "version": "2.0.1",
+      "package": "packages/render-output-version/2.0.1.zip",
+      "sha256": "5637220b9d52a67c555cbaca7b579caeaa9abd2c2287335c281652f0e10be855",
       "files": {
         "Render_Output_Version.ms": "23f481f0d35fc130efeff982f6beab11726bc95436e66a9f1255bfb9d8973363",
         "vr_output/ui.py": "2eb9328caebcdd004765cdeddda49e993ef210d40d8e90b560fe74473d755b2f",
-        "vr_output/tool.py": "fd0db2052b7f14a47c234d7370fc353ba6ddc87654bf5fb943651a1175dbf4e7"
+        "vr_output/tool.py": "c90e29c4bdb7773af5ccd38eed4fe3468ba423407f1d32517012bb0a6254116c"
       },
+      "notes": "Prompts before reusing an existing version folder. Confirm to update render paths, or cancel to preserve the current settings.",
       "name": "Render Output Version",
       "main": "Render_Output_Version.ms",
       "type": "ms",
       "description": "Create a render version folder and assign explicit paths to every render element",
-      "notes": "Python implementation with a consistent VR Tools interface. Close the tool before updating and reopen it from the panel.",
       "min_max": 2024
     }
   ]
