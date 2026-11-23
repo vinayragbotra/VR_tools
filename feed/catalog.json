@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "published": "2026-11-23T11:04:30.205535+00:00",
+  "published": "2026-11-23T11:39:58.635316+00:00",
   "manager": {
     "id": "vr-tools-manager",
     "version": "2.1.9",
@@ -26,12 +26,12 @@
   "tools": [
     {
       "id": "network-sanity-check-py",
-      "version": "1.1.6",
-      "package": "packages/network-sanity-check-py/1.1.6.zip",
-      "sha256": "b9cc017cb9ea9e80592ed2af6db1892df95d9dc449182a3c3bec5d65505bc4d9",
+      "version": "1.1.7",
+      "package": "packages/network-sanity-check-py/1.1.7.zip",
+      "sha256": "e6e019bbf3cf0f0f1ec65ad296df64ce973bc9828b5332a5895808ebbc3bdde3",
       "files": {
         "NetworkSanityCheck_py.ms": "aaefdee5467f2d16021a9e32d48d3f4fe4a8663154271d13c9d10ac106757947",
-        "nsc/__init__.py": "d1f98d229bb91d859492d5b4e25b10c3784fbb1b9858e7353c737bc880b46d29",
+        "nsc/__init__.py": "7fa4ee07a0a316e2c2e122034c350b7e557fd364aa9ddd543c9ae2262aa1ee9f",
         "nsc/__main__.py": "9f4a3da8a0acc33ed467570fff24ad1909ac2352bece96690e81f5d278b94372",
         "nsc/config.py": "7fc1611a83a6f195d5235e2c79a49e1d0b13590898dec3e92459cf5cd5cacb2a",
         "nsc/helpers.ms": "c15fd583cb531bcbe72f16eabb827e90633aacf1f406b08b0e00aa421e5523c5",
@@ -39,10 +39,10 @@
         "nsc/ops.py": "2b045413916ab7d80b2085f529b6c8c6b3d7a890d80abd1b9059b0a1e5a4ab4a",
         "nsc/qt.py": "0b258740cabaaaff7f817cd822caa33a3f94c75b401fd823eb62890741d12c4f",
         "nsc/scan.py": "68ab4dbb15730b604b0ea5fb8a53e17bd9a5a319a2a4dfff03f34560785f5bd5",
-        "nsc/ui.py": "b1945c8b74fd7d0b8408fc529f5e9ef739c07bc616dd5ea09f24b2b3388ac124",
+        "nsc/ui.py": "51994481d5b301fbb9a7675018ccc6ce195827c1e84b19b8a7a9ab51fbcf39a9",
         "nsc/collection.py": "2977c7ada5959004ed9345a1e6a0c5c655b0596dfec87669accfb21b0f14c9f9"
       },
-      "notes": "Destination-first collection, filtered processing, checked-folder search, selected texture conversion, texture inspection and a simplified Audit tab.",
+      "notes": "Adds a resizable thumbnail grid, Details view, a draggable paths divider, and fit-relative image preview zoom with the mouse wheel.",
       "name": "VR Asset Tracker",
       "main": "NetworkSanityCheck_py.ms",
       "type": "ms",
