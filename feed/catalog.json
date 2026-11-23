@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "published": "2026-11-23T11:39:58.635316+00:00",
+  "published": "2026-11-23T12:12:10.531868+00:00",
   "manager": {
     "id": "vr-tools-manager",
     "version": "2.1.9",
@@ -86,20 +86,20 @@
     },
     {
       "id": "vr-project-creator",
-      "version": "2.0.1",
-      "package": "packages/vr-project-creator/2.0.1.zip",
-      "sha256": "84a1a97ca92b9394f1b3652bc44270ee22215e29f7d43fb65d6a9515fd0aacc9",
+      "version": "2.0.2",
+      "package": "packages/vr-project-creator/2.0.2.zip",
+      "sha256": "dcf1219598fac3cd9254825e60ae932dcb2e767b6eb22d4ff45d14c9d021c67b",
       "files": {
         "VR_Project_Creator_Menu.ms": "c36213d77389a9025903f342896eb5d7aeff2c0ed7a26fc4ea52ee561f774af6",
         "vr_project/ui.py": "2eb9328caebcdd004765cdeddda49e993ef210d40d8e90b560fe74473d755b2f",
-        "vr_project/tool.py": "4c96f6670e97d7ee0efef6c6803fe445695876f4439e60c2e2a9990064c33a4b",
+        "vr_project/tool.py": "0b4b1dd384df5311d413329aaf240c46d1861f05c03469665e1fe07136a06ffa",
         "vr_project/elements.py": "6416fd5d47488870017a5c0880b181953d3661d124d0b849a20dabd663d724f7"
       },
+      "notes": "Adds client and project folder dialogs, a live scene filename preview, an optional Area suffix, and a shortcut to the current unit or shot folder.",
       "name": "VR Project Creator",
       "main": "VR_Project_Creator_Menu.ms",
       "type": "ms",
       "description": "Creates VR project folder structure with render setup and 360 camera",
-      "notes": "Prefer ASR Z: and create the Mumbai projects folder on fallback. Add shading normals for Corona and V-Ray.",
       "min_max": 2024
     },
     {
