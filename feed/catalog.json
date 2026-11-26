@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "published": "2026-11-26T10:43:17.464808+00:00",
+  "published": "2026-11-26T11:00:10.770269+00:00",
   "manager": {
     "id": "vr-tools-manager",
     "version": "2.1.10",
@@ -26,12 +26,12 @@
   "tools": [
     {
       "id": "network-sanity-check-py",
-      "version": "1.1.9",
-      "package": "packages/network-sanity-check-py/1.1.9.zip",
-      "sha256": "41d03e1e0e35c5cb022bb86e13ee4f6f1e25f5ea6577c2526ee41724a95870ff",
+      "version": "1.1.10",
+      "package": "packages/network-sanity-check-py/1.1.10.zip",
+      "sha256": "af2db5215a7db00a9acc411a084d468963ed041f8267bf81b9cf0afcda14fac8",
       "files": {
         "NetworkSanityCheck_py.ms": "aaefdee5467f2d16021a9e32d48d3f4fe4a8663154271d13c9d10ac106757947",
-        "nsc/__init__.py": "e0b81c814355ee2d48a8215ee9610dd4d1c5f11936712bf8201a710c48062465",
+        "nsc/__init__.py": "9279954f6902af862a298f343b35be74d6ab5c41eaf2d913a392ebfea6111a32",
         "nsc/__main__.py": "9f4a3da8a0acc33ed467570fff24ad1909ac2352bece96690e81f5d278b94372",
         "nsc/config.py": "7fc1611a83a6f195d5235e2c79a49e1d0b13590898dec3e92459cf5cd5cacb2a",
         "nsc/helpers.ms": "c15fd583cb531bcbe72f16eabb827e90633aacf1f406b08b0e00aa421e5523c5",
@@ -39,11 +39,11 @@
         "nsc/ops.py": "83fbf3c5e3a5346a0d33a80b96d924264d385680abed392f365a62d8d8d409a1",
         "nsc/qt.py": "0b258740cabaaaff7f817cd822caa33a3f94c75b401fd823eb62890741d12c4f",
         "nsc/scan.py": "68ab4dbb15730b604b0ea5fb8a53e17bd9a5a319a2a4dfff03f34560785f5bd5",
-        "nsc/ui.py": "de839a81fca005b9220acd54fa5d18baeb59db7935ad780926fa2fb334a6eb32",
+        "nsc/ui.py": "706e08b0c6d95e94536a724f56082ccf78ba538067dbb8808e667d27d3cd5c50",
         "nsc/collection.py": "2977c7ada5959004ed9345a1e6a0c5c655b0596dfec87669accfb21b0f14c9f9",
         "nsc/export_selected.py": "8b03f1b790e0d01841b80e4bc088085e9c755e9f13d76fbb43744caba8292346"
       },
-      "notes": "Export Selected reports overall and current-stage progress. Supports the viewport shortcut in VR Tools Manager 2.1.10.",
+      "notes": "Both export commands prompt for a name and destination with Browse. Unsaved scenes can export selected objects directly.",
       "name": "VR Asset Tracker",
       "main": "NetworkSanityCheck_py.ms",
       "type": "ms",
