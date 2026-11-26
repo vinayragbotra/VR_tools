@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "published": "2026-11-23T12:20:13.234458+00:00",
+  "published": "2026-11-26T09:15:40.043642+00:00",
   "manager": {
     "id": "vr-tools-manager",
     "version": "2.1.9",
@@ -26,23 +26,24 @@
   "tools": [
     {
       "id": "network-sanity-check-py",
-      "version": "1.1.7",
-      "package": "packages/network-sanity-check-py/1.1.7.zip",
-      "sha256": "e6e019bbf3cf0f0f1ec65ad296df64ce973bc9828b5332a5895808ebbc3bdde3",
+      "version": "1.1.8",
+      "package": "packages/network-sanity-check-py/1.1.8.zip",
+      "sha256": "7b4586dace0b32db031cc1594d9d03f6b823b8a2f9eac752240eeafba7188d02",
       "files": {
         "NetworkSanityCheck_py.ms": "aaefdee5467f2d16021a9e32d48d3f4fe4a8663154271d13c9d10ac106757947",
-        "nsc/__init__.py": "7fa4ee07a0a316e2c2e122034c350b7e557fd364aa9ddd543c9ae2262aa1ee9f",
+        "nsc/__init__.py": "ba0a779c66c4aa5432fbbb45b23c2bc6bd419aeee6e4214f52ef67c32eae9de7",
         "nsc/__main__.py": "9f4a3da8a0acc33ed467570fff24ad1909ac2352bece96690e81f5d278b94372",
         "nsc/config.py": "7fc1611a83a6f195d5235e2c79a49e1d0b13590898dec3e92459cf5cd5cacb2a",
         "nsc/helpers.ms": "c15fd583cb531bcbe72f16eabb827e90633aacf1f406b08b0e00aa421e5523c5",
         "nsc/maxops.py": "77c6b94e5b933b419cd30e8cad835a7c56be0520d3f430f6d32d979c8876c11f",
-        "nsc/ops.py": "2b045413916ab7d80b2085f529b6c8c6b3d7a890d80abd1b9059b0a1e5a4ab4a",
+        "nsc/ops.py": "83fbf3c5e3a5346a0d33a80b96d924264d385680abed392f365a62d8d8d409a1",
         "nsc/qt.py": "0b258740cabaaaff7f817cd822caa33a3f94c75b401fd823eb62890741d12c4f",
         "nsc/scan.py": "68ab4dbb15730b604b0ea5fb8a53e17bd9a5a319a2a4dfff03f34560785f5bd5",
-        "nsc/ui.py": "51994481d5b301fbb9a7675018ccc6ce195827c1e84b19b8a7a9ab51fbcf39a9",
-        "nsc/collection.py": "2977c7ada5959004ed9345a1e6a0c5c655b0596dfec87669accfb21b0f14c9f9"
+        "nsc/ui.py": "edcf1baf113d9b037c370b7a0fff298e5c9a9a4362f8d4162756620b30137ffc",
+        "nsc/collection.py": "2977c7ada5959004ed9345a1e6a0c5c655b0596dfec87669accfb21b0f14c9f9",
+        "nsc/export_selected.py": "4336ac655008e5c49c30cb71028ea28a27df45fd445528da8f511065001a1cb5"
       },
-      "notes": "Adds a resizable thumbnail grid, Details view, a draggable paths divider, and fit-relative image preview zoom with the mouse wheel.",
+      "notes": "Adds portable selected-object export, export recovery, and an output-folder shortcut. Archive keeps existing scene paths and uses faster compression.",
       "name": "VR Asset Tracker",
       "main": "NetworkSanityCheck_py.ms",
       "type": "ms",
