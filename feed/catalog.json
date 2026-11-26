@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "published": "2026-11-26T09:15:40.043642+00:00",
+  "published": "2026-11-26T10:43:17.464808+00:00",
   "manager": {
     "id": "vr-tools-manager",
-    "version": "2.1.9",
-    "package": "packages/vr-tools-manager/2.1.9.zip",
-    "sha256": "8ee1026bbce4b404564e512f67c3541eb364f3b0a3208b482fa6664a27a2fe09",
+    "version": "2.1.10",
+    "package": "packages/vr-tools-manager/2.1.10.zip",
+    "sha256": "9336e131a0a4221790967a101e96da899a1a0e8c60eb9d7b1889941b2b29743f",
     "files": {
-      "VR_tools_Panel.ms": "c33cb6c48387305db354a1f4b07f309534e0381639de84c46bb094e19a9dbf65",
+      "VR_tools_Panel.ms": "30092b97f3f0b20bcbe8267ca17e122194ec4429dd06c43345370ede98e51c6f",
       "VR_tools_install.ms": "7ed98726de5274eb8d51958bbef50a169ced2eb3a2f7c4b12c8620c15fabfc95",
       "VR_tools_bootstrap.py": "fde52e4634d3addc9a252ef7fe2fb8551ae67d20a97557add60172f3cf52e01d",
-      "vrtools_manager/legacy.ms": "b27c39038c55572d4e83f82274ef365598510cc10e14b894f42890eb1ede3c4e",
-      "vrtools_manager/__init__.py": "b93fef78147cab9a3fb688d8eaa356ff1b6b149b40189a6796af26d3bd8281c6",
+      "vrtools_manager/legacy.ms": "46588038c9974fad0086baeb853ff68b21039e9ef8ed77749db0194269d01f11",
+      "vrtools_manager/__init__.py": "0bf6165000cdfce3685861079bc902103cf306e2a7b0835635235d86ea0898ee",
       "vrtools_manager/core.py": "669b325491a756ae397d4eab8dfce5f40021e01faca3df05465edd864c440509",
       "vrtools_manager/menus.py": "78c8a73a9573ad0e08863d147d1f14756b252a57d71fb4f886d81359c7604ba9",
       "vrtools_manager/publish.py": "e5f7df5d66c8d64da078eb6a6d4b5217b85161869b73b4cbb90bd4432d607cba",
@@ -19,19 +19,19 @@
       "vrtools_manager/serve.py": "8804be39b2920052a5b69d3a328fe4972b513745b24137b8540683aa806b622b",
       "vrtools_manager/ui.py": "ad24573c0c5382b0b24b907b09770a38613f307877213138ca985b187098be7d"
     },
+    "notes": "Adds Export selected below Copy and Paste in the viewport menu when VR Asset Tracker is installed.",
     "name": "VR Tools Manager",
-    "notes": "Central catalog, verified installs, rollback and online bootstrap.",
     "min_max": 2024
   },
   "tools": [
     {
       "id": "network-sanity-check-py",
-      "version": "1.1.8",
-      "package": "packages/network-sanity-check-py/1.1.8.zip",
-      "sha256": "7b4586dace0b32db031cc1594d9d03f6b823b8a2f9eac752240eeafba7188d02",
+      "version": "1.1.9",
+      "package": "packages/network-sanity-check-py/1.1.9.zip",
+      "sha256": "41d03e1e0e35c5cb022bb86e13ee4f6f1e25f5ea6577c2526ee41724a95870ff",
       "files": {
         "NetworkSanityCheck_py.ms": "aaefdee5467f2d16021a9e32d48d3f4fe4a8663154271d13c9d10ac106757947",
-        "nsc/__init__.py": "ba0a779c66c4aa5432fbbb45b23c2bc6bd419aeee6e4214f52ef67c32eae9de7",
+        "nsc/__init__.py": "e0b81c814355ee2d48a8215ee9610dd4d1c5f11936712bf8201a710c48062465",
         "nsc/__main__.py": "9f4a3da8a0acc33ed467570fff24ad1909ac2352bece96690e81f5d278b94372",
         "nsc/config.py": "7fc1611a83a6f195d5235e2c79a49e1d0b13590898dec3e92459cf5cd5cacb2a",
         "nsc/helpers.ms": "c15fd583cb531bcbe72f16eabb827e90633aacf1f406b08b0e00aa421e5523c5",
@@ -39,11 +39,11 @@
         "nsc/ops.py": "83fbf3c5e3a5346a0d33a80b96d924264d385680abed392f365a62d8d8d409a1",
         "nsc/qt.py": "0b258740cabaaaff7f817cd822caa33a3f94c75b401fd823eb62890741d12c4f",
         "nsc/scan.py": "68ab4dbb15730b604b0ea5fb8a53e17bd9a5a319a2a4dfff03f34560785f5bd5",
-        "nsc/ui.py": "edcf1baf113d9b037c370b7a0fff298e5c9a9a4362f8d4162756620b30137ffc",
+        "nsc/ui.py": "de839a81fca005b9220acd54fa5d18baeb59db7935ad780926fa2fb334a6eb32",
         "nsc/collection.py": "2977c7ada5959004ed9345a1e6a0c5c655b0596dfec87669accfb21b0f14c9f9",
-        "nsc/export_selected.py": "4336ac655008e5c49c30cb71028ea28a27df45fd445528da8f511065001a1cb5"
+        "nsc/export_selected.py": "8b03f1b790e0d01841b80e4bc088085e9c755e9f13d76fbb43744caba8292346"
       },
-      "notes": "Adds portable selected-object export, export recovery, and an output-folder shortcut. Archive keeps existing scene paths and uses faster compression.",
+      "notes": "Export Selected reports overall and current-stage progress. Supports the viewport shortcut in VR Tools Manager 2.1.10.",
       "name": "VR Asset Tracker",
       "main": "NetworkSanityCheck_py.ms",
       "type": "ms",
